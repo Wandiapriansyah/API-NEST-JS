@@ -11,7 +11,7 @@ export default registerAs(
         port: 3306,
         username: 'root',
         password: '',
-        database: 'api_nest',
+        database: 'apinest',
         entities: [Siswa],
         synchronize: false, //false jika data produksi
     }),

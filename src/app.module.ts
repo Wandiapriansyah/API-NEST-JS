@@ -10,8 +10,6 @@ import { Siswa } from "./siswa/entities/siswa.entity";
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 
-
-
 @Module({
   imports: [
     ConfigModule.forRoot({
