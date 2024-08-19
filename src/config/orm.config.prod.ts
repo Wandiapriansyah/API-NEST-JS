@@ -7,11 +7,11 @@ export default registerAs(
     'orm.config',
     (): TypeOrmModuleOptions => ({
         type: 'postgres',
-        host: 'localhost',
+        host: 'ep-solitary-hill-a2k9pym8.eu-central-1.pg.koyeb.app',
         port: 5432,
-        username: 'root',
-        password: '',
-        database: 'apinest',
+        username: 'koyeb-adm',
+        password: '*******',
+        database: 'koyebdb',
         entities: [Siswa],
         synchronize: false, //false jika data produksi
     }),
